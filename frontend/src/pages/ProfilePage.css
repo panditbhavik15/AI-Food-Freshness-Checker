@@ -1,0 +1,60 @@
+/* ProfilePage styles */
+
+.profile-page {
+  padding-top: calc(var(--header-height) + var(--space-8));
+  min-height: 100vh;
+  padding-bottom: var(--space-16);
+}
+
+.profile-page__title {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-bold);
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.profile-card {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-8);
+  text-align: center;
+  opacity: 0;
+}
+
+.profile-card__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: white;
+  margin: 0 auto var(--space-6);
+}
+
+.profile-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  text-align: left;
+}
+
+.profile-field label {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  display: block;
+  margin-bottom: var(--space-1);
+}
+
+.profile-field p {
+  font-weight: var(--font-medium);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg-glass);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}

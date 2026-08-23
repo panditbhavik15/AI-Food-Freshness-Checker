@@ -1,0 +1,36 @@
+# Backend Dependencies — AI Food Freshness Checker
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Database
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# Image Processing
+Pillow==11.1.0
+numpy==2.2.1
+
+# Validation & Serialization
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+email-validator>=2.0.0
+
+# Utilities
+python-dotenv==1.0.1
+uuid6==2024.7.10
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
